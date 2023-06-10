@@ -20,7 +20,7 @@ This is a simple command-line implementation of the classic Tic Tac Toe game in 
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/java-tic-tac-toe.git
+https://github.com/mabuya02/TicTacToe.git
 ```
 
 2. Compile the Java source files:
