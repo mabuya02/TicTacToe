@@ -98,11 +98,14 @@ public class TicTacToe extends JPanel implements ActionListener {
 		page.drawString(": " + player2wins, 362, 105);
 
 		// DRAW score X
+		//--------------------------------------------------------------Issue with the x shape----------------------------------------------will be fixed in a few-----------------------------------------
 		ImageIcon xIcon = new ImageIcon("orangex.png");
+		page.setColor(offwhite);
 		Image xImg = xIcon.getImage();
 		Image newXImg = xImg.getScaledInstance(27, 27, java.awt.Image.SCALE_SMOOTH);
 		ImageIcon newXIcon = new ImageIcon(newXImg);
 		page.drawImage(newXIcon.getImage(), 44 + offset * 1 + 190, 47 + offset * 0, null);
+		//--------------------------------------------------------------Issue with the x shape----------------------------------------------will be fixed in a few-------------------------------------
 
 		// DRAW score O
 		page.setColor(offwhite);

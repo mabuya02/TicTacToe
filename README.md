@@ -26,13 +26,13 @@ https://github.com/mabuya02/TicTacToe.git
 2. Compile the Java source files:
 
 ```
-javac src/*.java
+javac 001/*.java
 ```
 
 3. Run the game:
 
 ```
-java -cp src/ TicTacToe
+java -cp 001/ TicTacToe
 ```
 
 ## How to Play
